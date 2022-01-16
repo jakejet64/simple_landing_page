@@ -1,23 +1,68 @@
-*{
-    font-family: sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
-.DarkBackground {
-    height: 40px;
+.hero {
+    height: 400px;
     display: flex;
     background-color: #1F2937;
+}
+
+.placeHolder {
+    width: 400;
+    height: 300;
+    background-color: bisque;
+}
+
+.heroTexts {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 4px;
+    width: 40%;
+}
+
+.heroSubText {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.heroMainText {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.heroButton {
+    width: 72px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.header {
+    height: 48px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
     align-items: center;
     gap: 13px;
 }
 
-#HeaderLogo {
-    font-size: 24px;
-    color: #F9FAF8;
-    margin-right: 25%;
+.headerLinks{
+    display: flex;
+    gap: 16px;
+    margin-right: 20px;
 }
 
-#HeaderLink {
+.headerLogo {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLink {
     font-size: 18px;
     color: #E5E7EB;
 }
