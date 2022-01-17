@@ -7,12 +7,19 @@ body {
     height: 400px;
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
 }
 
 .placeHolder {
-    width: 400;
-    height: 300;
-    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    margin-right: 20px;
 }
 
 .heroTexts {
@@ -20,8 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4px;
-    width: 40%;
+    gap: 6px;
 }
 
 .heroSubText {
@@ -39,6 +45,9 @@ body {
     width: 72px;
     color: #E5E7EB;
     background-color: #3882F6;
+    border-radius: 4px;
+    border: none;
+    padding: 6px;
 }
 
 .header {
@@ -65,4 +74,116 @@ body {
 .headerLink {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.randomHeading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContainers {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.infoBit {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoBit div {
+    text-align: center;
+    color: gray;
+}
+
+.infoBox {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 18px;
+}
+
+.quoteSection {
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 920px;
+}
+
+.quoteCredit {
+    font-weight: bold;
+    text-align: right;
+    width: 920px
+}
+
+.ctaSection {
+    padding: 50px 20px;
+}
+
+.ctaBox {
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 200px;
+}
+
+.ctaTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ctaHeader {
+    font-size: 18px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+.ctaSubheader {
+    color: #E5E7EB;
+}
+
+.ctaButton {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
