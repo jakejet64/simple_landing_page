@@ -1,0 +1,39 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.side {
+    width: 20px;
+    flex: 1 1 auto;
+}
+
+.mainBody {
+    width: 800px;
+    flex: 0 1 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #1F2937;
+}
+
+.hLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hLinks {
+    display: flex;
+    gap: 8px;
+}
+
+.hLink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
