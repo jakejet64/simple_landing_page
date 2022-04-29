@@ -11,7 +11,7 @@ body {
 }
 
 .mainBody {
-    width: 800px;
+    width: 1000px;
     flex: 0 1 auto;
 }
 
@@ -92,4 +92,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.infoContainers {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.infoBit {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.infoBit div {
+    text-align: center;
+    color: gray;
+}
+
+.infoBox {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 18px;
 }
